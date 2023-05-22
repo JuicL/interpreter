@@ -20,5 +20,6 @@ jobs:
         image: juicl/cppmetrics:latest
         run: |
             ls
+            apt-get update && apt-get install -y g++
             sh CPP_Metrics
            
