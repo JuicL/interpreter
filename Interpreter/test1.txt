@@ -1,0 +1,12 @@
+; .data .code директория
+; Обработка массива ТЕСТ!
+.data
+i int 0
+n int 5
+ii int 1
+.code
+start main 
+main:
+lea r3,i
+p1: mov r1,[r3 + (0x1 + 0x1)]
+output r1,#0

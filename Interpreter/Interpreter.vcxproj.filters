@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Interpretator">
+      <UniqueIdentifier>{5c91d64f-6ddb-4bf6-bb5c-b9d811c85032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Interpretator">
+      <UniqueIdentifier>{4e0df5c8-fd2f-4be3-a0ae-3a92f5d29be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Translator">
+      <UniqueIdentifier>{c9ae90b2-ed48-440f-9895-7f3ec43475d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Translator">
+      <UniqueIdentifier>{f17d5a39-e12b-45f9-b972-bfc3481985f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\ArifmeticParser">
+      <UniqueIdentifier>{5dd04aea-7fb2-4331-aa5f-479fa478f12c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ArifmeticParser">
+      <UniqueIdentifier>{dc62e6ed-567f-4e32-828c-f7f9624d3f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Debug">
+      <UniqueIdentifier>{4e941606-f612-4aaf-ab2f-7e1272a98eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Debug">
+      <UniqueIdentifier>{43e791b0-4364-4223-b527-a16f694ffa3a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Loader\Loader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Файлы заголовков\Interpretator</Filter>
+    </ClInclude>
+    <ClInclude Include="Compare.h">
+      <Filter>Файлы заголовков\Interpretator</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU.h">
+      <Filter>Файлы заголовков\Interpretator</Filter>
+    </ClInclude>
+    <ClInclude Include="fMath.h">
+      <Filter>Файлы заголовков\Interpretator</Filter>
+    </ClInclude>
+    <ClInclude Include="iMath.h">
+      <Filter>Файлы заголовков\Interpretator</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <Filter>Файлы заголовков\Interpretator</Filter>
+    </ClInclude>
+    <ClInclude Include="Jump.h">
+      <Filter>Файлы заголовков\Interpretator</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Файлы заголовков\Interpretator</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>Файлы заголовков\Interpretator</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Файлы заголовков\Interpretator</Filter>
+    </ClInclude>
+    <ClInclude Include="Translator\Translator.h">
+      <Filter>Файлы заголовков\Translator</Filter>
+    </ClInclude>
+    <ClInclude Include="Translator\TypesTranslator.h">
+      <Filter>Файлы заголовков\Translator</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseIndirect.h">
+      <Filter>Файлы заголовков\Translator</Filter>
+    </ClInclude>
+    <ClInclude Include="ArifmeticParser.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Debuger.h">
+      <Filter>Файлы заголовков\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Atoi\Atoi.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Compare.cpp">
+      <Filter>Исходные файлы\Interpretator</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU.cpp">
+      <Filter>Исходные файлы\Interpretator</Filter>
+    </ClCompile>
+    <ClCompile Include="fMath.cpp">
+      <Filter>Исходные файлы\Interpretator</Filter>
+    </ClCompile>
+    <ClCompile Include="iMath.cpp">
+      <Filter>Исходные файлы\Interpretator</Filter>
+    </ClCompile>
+    <ClCompile Include="IO.cpp">
+      <Filter>Исходные файлы\Interpretator</Filter>
+    </ClCompile>
+    <ClCompile Include="Jump.cpp">
+      <Filter>Исходные файлы\Interpretator</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Исходные файлы\Interpretator</Filter>
+    </ClCompile>
+    <ClCompile Include="Move.cpp">
+      <Filter>Исходные файлы\Interpretator</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\Loader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Translator\Translator.cpp">
+      <Filter>Исходные файлы\Translator</Filter>
+    </ClCompile>
+    <ClCompile Include="Extention.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="Extention.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseIndirect.cpp">
+      <Filter>Исходные файлы\Translator</Filter>
+    </ClCompile>
+    <ClCompile Include="ArifmeticParser.cpp">
+      <Filter>Исходные файлы\ArifmeticParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Debuger.cpp">
+      <Filter>Исходные файлы\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Atoi\Atoi.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="byteCodes.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+</Project>
