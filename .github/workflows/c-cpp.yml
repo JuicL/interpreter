@@ -17,5 +17,6 @@ jobs:
     - name: Run the build process with Docker
       uses: addnab/docker-run-action@v3
       with:
-        image: juicl/cppmetrics:latest
+        image: aschmelyun/cleaver:latest
+        options: -v ${{ github.workspace }}:/var/www
            
