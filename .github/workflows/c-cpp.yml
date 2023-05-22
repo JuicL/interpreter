@@ -21,5 +21,5 @@ jobs:
         run: |
             ls
             apt-get update && apt-get install -y g++ 
-            dotnet CPP_Metrics.dll
+            dotnet CPP_Metrics.dll -f ${{ github.workspace }} -o /
            
