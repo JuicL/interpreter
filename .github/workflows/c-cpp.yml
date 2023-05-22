@@ -13,9 +13,10 @@ jobs:
       uses: addnab/docker-run-action@v3
       with:
         image: juicl/cppmetrics:latest
+        options: -v ${{ github.workspace }}:/app1
         run: |
-            echo ${{ github.workspace }}
-            ls ${{ github.workspace }}
+            echo !!!!!!!!!!!!!!!!!!
+            ls /app1
             apt-get update && apt-get install -y g++ 
-            dotnet CPP_Metrics.dll -f ${{ github.workspace }} -o /
+            dotnet CPP_Metrics.dll -f /app1 -o /
            
