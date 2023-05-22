@@ -4,6 +4,7 @@
 #include "Loader/Loader.h"
 #include "Translator/Translator.h"
 
+
 std::string GetPathToDirectory(std::string fullPath)
 {
     int pos = fullPath.rfind('\\');
