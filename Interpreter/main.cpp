@@ -1,5 +1,4 @@
 #include <iostream>
-#include <Windows.h>
 #include <algorithm>
 #include "CPU.h"
 #include "Loader/Loader.h"
@@ -15,8 +14,7 @@ int main(int argc, char* argv[])
 {
     std::string pathToDirectory = GetPathToDirectory(argv[0]);
 
-    SetConsoleCP(65001);
-    SetConsoleOutputCP(65001);
+    
     Translator::Translator t(pathToDirectory);
     try
     {
