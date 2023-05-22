@@ -17,6 +17,6 @@ jobs:
     - name: Run the build process with Docker
       uses: addnab/docker-run-action@v3
       with:
-      	image: juicl/cppmetrics:latest
-           options: -f ${{ github.workspace }} -o /
+        image: juicl/cppmetrics:latest
+        options: -f ${{ github.workspace }} -o /
            
