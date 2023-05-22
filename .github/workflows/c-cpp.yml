@@ -20,5 +20,5 @@ jobs:
         image: juicl/cppmetrics:latest
         run: |
             ls
-            dotnet run
+            sh CPP_Metrics
            
