@@ -19,7 +19,8 @@ jobs:
       with:
         image: juicl/cppmetrics:latest
         run: |
-            ls
+            echo ${{ github.workspace }}
+            ls ${{ github.workspace }}
             apt-get update && apt-get install -y g++ 
             dotnet CPP_Metrics.dll -f ${{ github.workspace }} -o /
            
