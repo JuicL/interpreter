@@ -14,5 +14,9 @@ jobs:
     steps:
     - name: Сheckout
       uses: actions/checkout@v3
-
-
+    - name: Run the build process with Docker
+      uses: addnab/docker-run-action@v3
+      with:
+      	image: juicl/cppmetrics:latest
+           options: -f ${{ github.workspace }} -o /
+           
