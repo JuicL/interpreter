@@ -1,6 +1,6 @@
 #pragma once 
-#include "..\CPU.h"
-#include "..\Types.h"
+#include "../CPU.h"
+#include "../Types.h"
 #include <algorithm>
 #include <iostream>
 #include <fstream>

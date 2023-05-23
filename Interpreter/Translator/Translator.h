@@ -6,9 +6,9 @@
 #include <sstream>
 #include <tuple>
 #include <fstream>
-#include "..\CPU.h"
+#include "../CPU.h"
 #include "TypesTranslator.h"
-#include "..\Extention.h"
+#include "../Extention.h"
 /*
 Формат бинарного файла.
 -Адрес таблицы пер. имен
