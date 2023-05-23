@@ -1,9 +1,9 @@
 #include <algorithm>
 #include <exception>
 #include "Translator.h"
-#include "..\ParseIndirect.h"
-#include "..\ArifmeticParser.h"
-#include "..\Atoi\Atoi.h"
+#include "../ParseIndirect.h"
+#include "../ArifmeticParser.h"
+#include "../Atoi/Atoi.h"
 namespace Translator
 {
 
