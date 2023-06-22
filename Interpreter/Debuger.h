@@ -34,6 +34,8 @@
    ex sbs -- Пошаговая отладка
    ex ds -- Отладка с игнорирированием точек останова
 */
+using  Interpretator::CPU;
+
 namespace Debuger
 {
     class Debuger
