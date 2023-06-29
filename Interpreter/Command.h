@@ -6,7 +6,7 @@
 #include "CPU.h"
 namespace Interpretator
 {
-
+ 
     /*!
         \brief Базовый класс команд
     */
